@@ -53,14 +53,19 @@ public class Main {
     }
 
     private static class InventoryCounter {
+        private Object lock = new Object();
         private int items = 0;
 
-        public synchronized void increment() {
-            items++;
+        public void increment() {
+            synchronized (lock) {
+                items++;
+            }
         }
 
         public synchronized void decrement() {
-            items--;
+            synchronized (lock) {
+                items--;
+            }
         }
 
         public int getItems() {
