@@ -1,4 +1,4 @@
-/*
+package begin;/*
  * Copyright (c) 2024. Michael Pogrebinsky - Top Developer Academy
  * https://topdeveloperacademy.com
  * All rights reserved
