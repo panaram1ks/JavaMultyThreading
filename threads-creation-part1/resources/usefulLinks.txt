@@ -1,0 +1,5 @@
+https://vertx.io/
+
+https://netty.io/wiki/user-guide-for-5.x.html
+
+https://spring.io/guides/gs/reactive-rest-service
