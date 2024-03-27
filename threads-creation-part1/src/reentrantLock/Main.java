@@ -83,11 +83,11 @@ public class Main {
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
-                    pricesContainer.setBitcoinPrice(random.nextDouble(20000));
-                    pricesContainer.setEtherPrice(random.nextDouble(2000));
-                    pricesContainer.setLitecoinPrice(random.nextDouble(500));
-                    pricesContainer.setBitcoinCashPrice(random.nextDouble(5000));
-                    pricesContainer.setRipplePrice(random.nextDouble(2000));
+//                    pricesContainer.setBitcoinPrice(random.nextDouble(20000));
+//                    pricesContainer.setEtherPrice(random.nextDouble(2000));
+//                    pricesContainer.setLitecoinPrice(random.nextDouble(500));
+//                    pricesContainer.setBitcoinCashPrice(random.nextDouble(5000));
+//                    pricesContainer.setRipplePrice(random.nextDouble(2000));
                 } finally {
                     pricesContainer.getLockObject().unlock();
                 }

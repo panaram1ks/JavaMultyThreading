@@ -19,7 +19,9 @@ public class IoBoundApplicationV2 {
     }
 
     private static void performTasks() {
-        try (ExecutorService executorService = Executors.newFixedThreadPool(1000)) {
+//        try (ExecutorService executorService = Executors.newFixedThreadPool(1000))
+        {
+            ExecutorService executorService = Executors.newFixedThreadPool(1000);
             for (int i = 0; i < NUMBER_OF_TASKS; i++) {
                 executorService.submit(new Runnable() {
                     @Override
