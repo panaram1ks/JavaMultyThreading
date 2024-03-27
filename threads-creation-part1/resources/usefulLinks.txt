@@ -3,3 +3,12 @@ https://vertx.io/
 https://netty.io/wiki/user-guide-for-5.x.html
 
 https://spring.io/guides/gs/reactive-rest-service
+
+
+
+
+https://medium.com/@MPogrebinsky/top-3-projects-for-java-concurrency-8c0752724e72
+
+https://www.youtube.com/watch?v=6a4Id3lj7Sw
+
+https://www.youtube.com/watch?v=TRGRnCAF4iQ
